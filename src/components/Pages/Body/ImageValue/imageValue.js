@@ -26,7 +26,6 @@ function imageValue() {
             top: '20%',
             bottom: '0%',
           }} />
-          {/* <ImageWoman></ImageWoman> */}
     </ImageContainer>
   )
 }

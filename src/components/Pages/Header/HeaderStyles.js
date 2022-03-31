@@ -31,7 +31,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 cursor: pointer;
-
+margin-right: 5px;
 `;
 export const Text = styled.div`
 font-family: Sora;
@@ -51,6 +51,7 @@ justify-content: center;
 align-items: center;
 cursor: pointer;
 font-size: 16px;
+margin-right: 5px;
 `;
 export const Developers = styled.div`
 // background-color: pink;
@@ -64,6 +65,7 @@ font-family: Sora;
 font-weight: 500;
 text-transform: capitalize;
 font-size: 16px;
+margin-right: 5px;
 `;
 export const Pricing = styled.div`
 // background-color: pink;
@@ -77,6 +79,7 @@ font-family: Sora;
 font-weight: 500;
 text-transform: capitalize;
 font-size: 16px;
+margin-right: 5px;
 `;
 export const Help = styled.div`
 // background-color: pink;
