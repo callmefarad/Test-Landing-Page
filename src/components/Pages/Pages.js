@@ -1,10 +1,13 @@
 import React from 'react'
-import {PageContainer} from './PagesStyle'
+import {PageContainer, WorldDot} from './PagesStyle'
+import Header from './Header/Header'
+
 
 function Pages() {
   return (
-      <PageContainer>
-          
+    <PageContainer>
+      <WorldDot></WorldDot>
+      <Header />
     </PageContainer>
   )
 }
