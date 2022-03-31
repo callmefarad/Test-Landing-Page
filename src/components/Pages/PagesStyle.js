@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import DotWorld from '../../images/Dots-Worldbackground.png'
 
 export const PageContainer = styled.div`
+display: flex;
+flex-direction: column;
 padding: 0px;
 margin: 0px;
 width: 100vw;
 height: 100vh;
-display: flex;
-justify-content: center;
+align-items: center;
 position: relative;
-
 background-image: linear-gradient(256.46deg, #F2ECE0 2.13%, #E7FFF1 161.97%);
 `;
 
