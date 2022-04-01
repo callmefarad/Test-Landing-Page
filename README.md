@@ -13,6 +13,10 @@
 - Wait until the app fires up automatically on your browser.
 - Thanks for having the app right on your desktop
   
+## Description
+
+- A landing page for pension remittance switch infrastructure for Africa.
+  
 ## Sample File
 
 <img src="./src/images/completed-work-image.PNG" alt="Test Landing Page" />
