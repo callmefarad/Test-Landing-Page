@@ -25,7 +25,10 @@ function HeaderStyles () {
           </Logo>
           <AllLink>
             <AllContainer>
-              <Product onMouseEnter={(e)=>setShowProduct(!showProduct)}>
+              <Product 
+              onClick={(e)=>setShowProduct(!showProduct)}
+              onMouseEnter={(e)=>setShowProduct(!showProduct)}
+              >
               <Text>product</Text>
               <Icon>
                 <MdExpandMore style={{
@@ -48,7 +51,10 @@ function HeaderStyles () {
             )}
             </AllContainer>
             <AllContainer>
-              <Company onMouseEnter={(e)=>setShowCompany(!showCompany)}>
+              <Company
+              onClick={(e)=>setShowCompany(!showCompany)} 
+              onMouseEnter={(e)=>setShowCompany(!showCompany)}
+              >
               <Text>company</Text>
               <Icon>
                 <MdExpandMore style={{
@@ -74,9 +80,10 @@ function HeaderStyles () {
             <Pricing>pricing</Pricing>
             <AllContainer>
               <Help 
+              onClick={(e)=>setShowHelp(!showHelp)}
               onMouseEnter={(e)=>{setShowHelp(!showHelp)}}
               >
-              <Text>company</Text>
+              <Text>help</Text>
               <Icon>
                 <MdExpandMore style={{
                   color: "#16AF6D"
