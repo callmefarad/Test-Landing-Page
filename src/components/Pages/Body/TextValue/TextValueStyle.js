@@ -19,29 +19,6 @@ export const Text1 = styled.div`
 height: auto;
 width: auto;
 `;
-
-// export const Pension = styled.div`
-// margin-right: 10px;
-// font-family: Poppins;
-// font-size: 59px;
-// font-weight: 600;
-// text-transform: capitalize;
-// color: #000000;
-// `;
-// export const Remittance = styled.div`
-// margin-right: 10px;
-// font-family: Poppins;
-// font-size: 59px;
-// font-weight: 600;
-// text-transform: capitalize;
-// color: #000000;
-// `;
-// export const Text2 = styled.div`
-
-// `;
-// export const Text3 = styled.div`
-
-// `;
 export const Text4 = styled.div`
 width: 60%;
 height: auto;
@@ -70,6 +47,12 @@ width: 278px;
 display: flex;
 justify-content: space-around;
 align-items: center;
+transition: background-color 2s;
+cursor: pointer;
+
+:hover{
+    background-color: #013E23;
+}
 `;
 export const One = styled.div`
 font-family: Sora;
@@ -88,4 +71,17 @@ justify-content: center;
 align-items: center;
 border: 1px solid #16AF6D;
 cursor: pointer;
+transition: background-color 2s;
+
+:hover{
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+}
+`;
+export const Two = styled.div`
+font-family: Sora;
+font-size: 16px;
+font-weight: 500;
+margin-right: 4px;
 `;
